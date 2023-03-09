@@ -1,0 +1,137 @@
+@media screen and (min-width: 320px) and (max-width: 375px) {
+	.header_input {
+		display: none;
+	}
+	.left_side {
+		width: 30%;
+	}
+	.left_side a img{
+        padding: 10px 0px;
+		width: 200px;
+	}
+	.right_side {
+		width: 70%;
+		justify-content: flex-end;
+	}
+	.list_text {
+		font-size: 2rem;
+	}
+    /*-------------------header--------------------*/
+	.header_input{
+		justify-content: flex-start;
+		margin-top: 9px;
+	}
+	.navigation{
+		margin-top: 16px;
+	}
+	.header_input img {
+		width: 17px;
+		height: 22px;
+		padding: 12px 0px;
+		left: 31px;
+	}
+	/*-------------------find--------------------*/
+    .pages{
+        flex-direction: column;
+    }
+    .information .indo {
+        font-size: 3.5rem;
+    }
+	/*-------------------information--------------------*/
+	.item {
+		flex-direction: column;
+	}
+	.photos{
+		width: 100%;
+		text-align: center;
+	}
+    .original_front{
+        margin: 0;
+        padding: 14px 15px 15px 15px;
+    }
+    .original_back{
+        padding: 30px 15px;
+        margin: 0;
+        padding: 30px 15px;
+    }
+	.big_original_short{
+        width: 100%;
+        height: 370px;
+	}
+	.small_photos {
+		height: 140px;
+		padding: 0px;
+        display: flex;
+        justify-content: space-between;
+	}
+	.information {
+		padding-top: 30px;
+	}
+    .indo {
+        display: flex;
+        flex-direction: column;
+    }
+	.feedback {
+		padding: 20px 0px;
+	}
+	.size_grid {
+		grid-template-columns: repeat(4, 46px);
+		padding: 18px 0px;
+	}
+	.returns {
+		margin-left: 0px;
+	}
+	.add_bag{
+		font-size: 2rem;
+		padding-bottom: 5px;
+	}
+	.add_list svg {
+		top: 8px;
+	}
+	.add_list{
+		padding-bottom: 10px;
+		font-size: 2rem;
+        width: 100%;
+        margin: 0;
+	}
+	.add_bag{
+		font-size: 2rem;
+		padding-bottom: 5px;
+        width: 100%;
+        margin-bottom: 10px;
+	}
+    .flex_box {
+        padding: 13.09px 15px 26.19px 15px;
+    }
+	.shipping, .returns {
+		width: 100%;
+        justify-content: center;
+	}
+    .line{
+        width: 225px;
+    }
+    .buttons{
+        flex-direction: column;
+        height: min-content;
+    }
+    .flex_box{
+        flex-direction: column;
+    }
+    .media {
+        margin: 0 auto;
+    }
+    .social_media{
+        justify-content: center;
+    }
+	/*-------------------details--------------------*/
+	.text{
+		margin: 0 auto;
+		margin-bottom: 20px;
+		padding: 40px;
+        font-size: 1.5rem;
+	}
+	.details header {
+		padding: 35px 0px;
+        font-size: 3rem;
+    }
+}

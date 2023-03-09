@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+html{
+	--Oswald: 'Oswald', sans-serif;
+	--OpenSans: 'Open Sans', sans-serif;
+	font-style: normal;
+
+	--mainColor: #A04955;
+	--subColor: #F1F1F1;
+	--grey: #787878;
+	background-color: white;
+	font-size: 10px;
+	font-weight: 400;
+}
+body, p{
+	font-family: var(--Oswald);
+	margin: 0;
+	padding: 0;
+}
+a, ul, li{
+	list-style: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+.wrapper{
+	padding: 0px 50px;
+}
+/*-------------------header--------------------*/
+.header{
+	margin: 25px 0px;
+	display: flex;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	z-index: 1;
+}
+.navbar{
+	display: none;
+}
+.left_side{
+	width: 35%;
+}
+.left_side a img{
+    padding: 10px 0px;
+}
+.right_side{
+	width: 65%;
+	margin-top: 0px;
+	display: flex;
+	justify-content: space-between;
+	height: min-content;
+}
+.navigation{
+	display: flex;
+	padding: 1px;
+	margin: 5px 0px;
+	height: min-content;
+}
+.navigation.active{
+    margin-top: 0px;
+}
+.list_text{
+	padding: 0px 25px;
+	font-size: 2.5rem;
+	color: black;
+}
+.list_text:hover{
+	color: var(--mainColor);
+}
+.header_input{
+	display: flex;
+	justify-content: space-around;
+	width: 32%;
+}
+.header_input img {
+	width: 19px;
+	height: 22px;
+	padding: 15px 0px;
+	position: relative;
+	left: 66px;
+}
+.header_input input{
+	width: 70%;
+	height: 40px;
+	font-size: 1.3rem;
+	border-radius: 25px;
+	border: 2px solid var(--mainColor);
+	font-family: var(--Oswald);
+	background-color: #fff;
+	color: var(--grey);
+	margin-top: 2%;
+	padding-left: 45px;
+}
+/*-------------------first page--------------------*/
+.first_screen_main{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 180px;
+}
+.text_main{
+	width: 50%;
+}
+.bold_head{
+	font-weight: 700;
+	font-size: 6.5em;
+	margin-top: 150px;
+}
+.comment_head{
+	font-weight: 300;
+	font-size: 2.4rem;
+	padding-bottom: 30px;
+}
+.shop_all_shorts{
+	width: 240px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: white;
+	font-family: var(--OpenSans);
+    font-size: 2.4rem;
+    font-weight: 300;
+    transition: all .3s linear;
+}
+.shop_all_shorts:hover{
+	border: 1px solid var(--mainColor);
+	background-color: var(--mainColor);
+	color: white;
+}
+.shop_all_shorts a{
+	color: black;
+}
+.shop_all_shorts a:hover{
+	color: white;
+}
+.photos{
+	width: 50%;
+}
+.photos img:nth-child(1){
+    margin-top: -27px;
+    position: absolute;
+    right: 250px;
+    top: 300px;/*183px;*/
+}
+.photos img:nth-child(2){
+    position: absolute;
+    right: 111px;
+}
+.photos img:nth-child(3){
+    position: absolute;
+    right: 110px;
+    top: 152px;/*35px;*/
+}
+/*-------------------second page--------------------*/
+.second_screen_main{
+	background-color: var(--subColor);
+	text-align: center;
+}
+.title{
+	font-weight: 500;
+	font-size: 3.6rem;
+	padding-top: 80px;
+}
+.subtitle{
+	font-weight: 500;
+	font-size: 6.4rem;
+	padding-bottom: 23px;
+}
+.slider{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-bottom: 87px;
+}
+.marchal_short, .inlet_short, .tgif_pant, .inlet_pant{
+	background-color: #fff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	transition: all .2s linear;
+}
+.marchal_short:hover, .inlet_short:hover, .tgif_pant:hover, .inlet_pant:hover{
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.for_text{
+	background-color: #fff;
+}
+.marchal_short header, .inlet_short header{
+	color: black;
+}
+.originalCargo_pic{
+	padding: 32px 62px 5px 53px;
+}
+.name{
+	font-weight: 500;
+	font-size: 2.4rem;
+}
+.originalCargo_low{
+	padding: 0px 55px 15px 45px 
+}
+.stars{
+	padding: 5px 0px;
+}
+.tgif{
+	padding: 18px 0px;
+}
+.low_main{
+	font-weight: 200;
+	font-size: 1.8rem;
+}
+.low_main span{
+	font-weight: 500;
+	font-size: 1.8rem;
+}
+.cart_main{
+	width: 50%;
+    height: 35px;
+	margin: 0px 66px 30px 66px;
+	font-size: 1.8rem;
+	font-weight: 400;
+	font-family: var(--Oswald);
+    background-color: var(--mainColor);
+    color: white;
+	border: 1px solid var(--mainColor);
+    transition: all .3s linear;
+}
+.cart_main:hover{
+	border: 1px solid black;
+    background-color: white;
+	color: black;
+}
+.cart_main svg{
+	width: 21px;
+	height: 21px;
+	position: relative;
+    top: 0px;
+    right: 5px;
+}
+.cart_main svg path{
+	fill: white;
+	transition: all .3s linear;
+}
+.cart_main:hover svg path{
+	fill: black;
+}
+/*-------------------third page--------------------*/
+.third_screen{
+	display: flex;
+	justify-content: space-around;
+	margin: 90px 0px;
+}
+.photo img{
+	text-align: center;
+}
+.size{
+	width: 40%;
+}
+.margin{
+	margin-top: 100px;
+}
+/*-------------------forth page--------------------*/
+.forth_screen_main{
+	display: flex;
+	justify-content: space-between;
+	margin: 107px 0px 46px 0px;
+	background-color: var(--subColor);
+	text-align: center;
+}
+.ecoths, .new_powell_print{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+.ecoths{
+	width: 48%;
+}
+.new_powell_print{
+	width: 48%;
+}
+.sale_text p::before{
+    content: 'NEW POWELL PRINT SHIRT';
+    display: block;
+    background-color: var(--mainColor);
+    opacity: 0.8;
+    font-weight: 500;
+    font-size: 3.6rem;
+    color: white;
+    position: relative;
+    bottom: 44px;
+    padding: 19px;
+	margin-top: 3px;
+}
+.sale p::before{
+    content: 'ECOTHS: NOW 30% OFF!';
+}
+.sale_text .justText{
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+.sale_text{
+	position: relative;
+	bottom: 50px;
+}
+.shop_by_sale{
+	width: 366px;
+	margin-top: 30px;
+	background-color: var(--subColor);
+}
+/*-------------------fifth page--------------------*/
+.fifth_screen{
+	display: flex;
+	justify-content: flex-start;
+	background-image: url('walking.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 30px 0px 90px 152px;
+	font-family: var(--OpenSans);
+}
+.text_walking {
+    padding: 71px 0px 90px 0px;
+}
+.walking_head{
+	font-family: var(--Oswald);
+	font-weight: 700;
+	font-size: 6.5rem;
+	color: white;
+	padding-bottom: 15px;
+}
+.comment_walk_head{
+	font-weight: 300;
+	font-size: 2.4rem;
+	color: white;
+	width: 50%;
+}
+.shop_sportif{
+	width: 405px;
+    height: 50px;
+	border: 1px solid var(--mainColor);
+	background-color: var(--mainColor);
+	font-family: var(--OpenSans);
+	color: white;
+	font-weight: 300;
+	font-size: 2.4rem;
+	margin-top: 20px;
+    transition: all .3s linear;
+}
+.shop_sportif:hover{
+    border: 1px solid white;
+    background-color: white;
+	color: black;
+}
+/*-------------------last page--------------------*/
+.last_screen{
+	padding: 90px 0px 46px 0px;
+	margin: 50px 0px;
+}
+.stay_in_trend{
+	background-color: var(--mainColor);
+	text-align: center;
+	padding: 0px 102px;
+	height: 340px;
+	margin-bottom: 425px;
+}
+.trend_header{
+	font-weight: 700;
+	font-size: 6.5rem;
+	color: white;
+	padding: 30px 0px;
+}
+.add{
+	display: flex;
+	justify-content: space-between;
+}
+.for_text{
+	border: 1px solid var(--mainColor);
+}
+.belt {
+    padding-top: 3.5px;
+    padding-bottom: 11.5px;
+}
+.trunk{
+	padding-top: 15px;
+}
+.catalog {
+    height: 215px;
+    padding-top: 12.5px;
+    margin-bottom: 14px;
+}
+.for_text header{
+	font-weight: 500;
+	font-size: 2.4rem;
+}
+.for_text header:nth-child(1){
+	padding: 0px 67px;
+}
+.for_text header:nth-child(2){
+	padding: 0px 32px;
+}
+.for_text header:nth-child(3){
+	padding: 0px 27px;
+}
+
+.for_text button{
+	font-family: var(--OpenSans);
+	font-weight: 300;
+	font-size: 1.8rem;
+	width: 240px;
+    height: 40px;
+	border: 1px solid var(--mainColor);
+	background-color: var(--mainColor);
+	color: white;
+	margin: 15px 36px 38px 36px;
+    transition: all .3s linear;
+}
+.for_text button:hover{
+    border: 1px solid black;
+    background-color: white;
+	color: black;
+}
+
+.family_owned{
+	text-align: center;
+	background-color: var(--subColor);
+	height: 415px;
+	margin: 0px 102px;
+}
+.family_owned div{
+	position: relative;
+	bottom: 153px;
+}
+.family_owned .family{
+	font-weight: 700;
+	font-size: 6.5rem;
+}
+.family_owned article{
+	padding: 20px 0px 35px 0px;
+	font-weight: 300;
+	font-size: 2.4rem;
+}
+.height{
+	height: 55px;
+	margin-bottom: 43px;
+	background-color: var(--subColor);
+}
+/*-------------------scroller--------------------*/
+.scroller{
+	height: 83px;
+	width: 83px;
+	background-color: var(--mainColor);
+	border-radius: 50%;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-align: center;
+	left: 90%;
+}
+.scroller img{
+	padding: 22px 0px;
+}
+.sticky{
+	position: sticky;
+	top: 80%;
+	z-index: 1;
+}
+/*-------------------footer page--------------------*/
+.footer{
+	background-color: var(--mainColor);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.wrapp_links{
+	display: flex;
+	justify-content: flex-start;
+	width: 60%;
+}
+.header_link, .know_us header{
+	font-weight: 600;
+	font-size: 2.4rem;
+	padding-bottom: 10px;
+}
+.links{
+	width: 33.3%;
+}
+.links ul{
+	padding: 0px;
+}
+.links ul li:hover{
+	text-decoration: underline;
+}
+.links ul li, .know_us p, form label{
+	font-weight: 400;
+	font-size: 1.8rem;
+	padding-bottom: 10px;
+}
+form{
+	padding-top: 30px;
+}
+form div{
+	display: flex;
+	justify-content: flex-start;
+}
+.one_input {
+    width: 80%;
+    height: 50px;
+    padding-left: 25px;
+    font-family: var(--Oswald);
+    color: var(--mainColor);
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.subscribe {
+    position: relative;
+    right: 125px;
+    width: 172px;
+    border: 1px solid var(--mainColor);
+    background-color: var(--mainColor);
+    color: white;
+    font-weight: 400;
+    font-size: 1.8rem;
+    height: 50px;
+    padding: 10px 0px;
+    margin-top: 0px;
+    transition: all .3s linear;
+}
+.subscribe:hover{
+    border: 1px solid black;
+    background-color: white;
+	color: var(--mainColor);
+}
+/*-------------------reserved--------------------*/
+.reserved{
+	background-color: white;
+	height: 45px;
+	font-weight: 400;
+	font-size: 1.8rem;
+	padding-top: 20px;
+}
+/*-------------------hamburger--------------------*/
+.hamburger{
+	display: none;
+	margin: 15px -25px 0px;
+	width: 35%;
+	height: 25%;
+}
+.bar{
+	display: block;
+	width: 25%;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all .3s ease-in-out;
+	background-color: black;
+}

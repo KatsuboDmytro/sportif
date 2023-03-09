@@ -1,0 +1,339 @@
+@media screen and (min-width: 320px) and (max-width: 375px) {
+	.wrapper {
+        padding: 0px 25px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .navigation {
+		position: fixed;
+        left: -200%;
+        top: 70px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        background-color: white;
+	}
+    .navigation.active{
+        left: 0%;
+    }
+    .list_text{
+        margin: 5px 0px;
+    }
+    .list_text::after{
+        content: '';
+        display: block;
+        height: 2px;
+        width: 350px;
+        background-color: var(--subColor);
+        margin: 5px auto;
+    }
+    /*-------------------header--------------------*/
+	.dispaly{
+		display: none;
+	}
+	.list_text {
+		padding-right: 0px;
+	}
+	.header_input {
+		display: none;
+	}
+	.left_side {
+		width: 30%;
+	}
+	.left_side a img{
+		width: 200px;
+	}
+	.right_side {
+		width: 70%;
+		justify-content: flex-end;
+	}
+	.list_text {
+		font-size: 2rem;
+	}
+	/*-------------------first screen--------------------*/
+    .first_screen_main{
+        height: max-content;
+        padding-bottom: 0px;
+        flex-direction: column;
+    }
+    .text_main{
+        width: 100%;
+        text-align: center;
+    }
+    .bold_head{
+        font-size: 4em;
+        margin-bottom: 15px;
+    }
+    .comment_head{
+        font-size: 1.8rem;
+    }
+    .shop_all_shorts{
+        width: 225px;
+        height: 40px;
+        margin-bottom: 30px;
+        font-size: 1.7em;
+    }
+    .photos {
+        position: relative;
+        width: 100%;
+        height: 460px;
+    }
+    .photos img:nth-child(1) {
+        right: 1px;
+        top: 170px;
+        height: 315px;
+        width: 100%;
+    }
+    .photos img:nth-child(2) {
+        right: 0px;
+        height: 315px;
+        width: 100%;
+    }
+	.photos img:nth-child(3) {
+		right: -24px;
+		top: 57px;
+		height: 363px;
+		width: 363px;
+	}
+	/*-------------------second screen--------------------*/
+	.originalCargo_pic {
+		padding: 32px 20px 5px 20px;
+		width: 150px;
+	}
+    .title {
+        font-size: 2rem;
+        padding-top: 80px;
+    }
+    .subtitle {
+        font-size: 4rem;
+        padding-bottom: 23px;
+    }
+    .slider{
+        flex-direction: column;
+        padding-bottom: 87px;
+        gap: 20px;
+    }
+    .marchal_short, .inlet_short, .tgif_pant, .inlet_pant{
+        margin: 0 auto;
+        background-color: #fff;
+        width: 100%;
+    }
+    .originalCargo_pic {
+        width: 200px;
+    }
+	.name {
+		font-size: 2.4rem;
+	}
+	.low, .low span{
+		font-size: 1.8rem;
+	}
+	.originalCargo_low {
+        padding: 0px 55px 15px 45px;
+	}
+	.star{
+		width: 25px;
+	}
+	.tgif{
+		padding: 9px 0px;
+	}
+	.cart_main {
+		width: 60%;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.cart_main svg {
+		top: 0px;
+		width: 20px;
+		height: 20px;
+		right: 82x;
+	}
+	.scroller {
+		height: 43px;
+		width: 43px;
+        left: 85%;
+	}
+	.scroller img {
+		padding: 10px 0px;
+		height: 25px;
+	}
+	/*-------------------third screen--------------------*/
+    .third_screen{
+        flex-direction: column-reverse;
+        padding: 35px;
+    }
+    .photo img {
+		text-align: center;
+		width: 100%;
+	}
+    .photo{
+        padding-bottom: 50px;
+        text-align: center;
+    }
+	.bold_head {
+		font-size: 3.2em;
+        margin-top: 15px;
+	}
+    .text_main{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+    }
+	.comment_head {
+		font-size: 1.8rem;
+	}
+	.shop_all_shorts {
+		width: 169px;
+		height: 40px;
+		font-size: 1.7rem;
+	}
+	/*-------------------forth screen--------------------*/
+	.forth_screen_main{
+        padding: 60px 30px 0px 30px;
+        flex-direction: column;
+	}
+	.ecoths img, .new_powell_print img{
+        text-align: center;
+	}
+    .ecoths, .new_powell_print{
+		width: 100%;
+		margin: 0 auto;
+    }
+	.new_powell_print{
+		padding: 0;
+	}
+	.sale_text .justText {
+		font-size: 1.5rem;
+	}
+	.sale_text p::before {
+		font-size: 2rem;
+		bottom: 21px;
+	}
+	.shop_by_sale {
+		width: 211px;
+		font-size: 1.4rem;
+	}
+	/*-------------------fifth screen--------------------*/
+	.fifth_screen{
+        display: none;
+	}
+	/*-------------------last screen--------------------*/
+	.stay_in_trend {
+		padding: 0px 30px;
+		height: 340px;
+        margin-bottom: 1000px;
+	}
+	.last_screen {
+		padding: 30px 0px 46px 0px;
+	}
+	.belt{
+		width: 193px;
+		height: 215px;
+		margin: 0px 0px 0px 0px;
+	}
+	.trunk {
+		width: 194px;
+		height: 215px;
+	}
+	.catalog {
+		width: 228px;
+		height: 187px;
+	}
+	.for_text header:nth-child(2) {
+		padding: 0px 0px;
+	}
+	.trend_header {
+		font-size: 3rem;
+        padding: 30px 0px;
+	}
+    .add{
+        flex-direction: column;
+        gap: 20px;
+    }
+	.for_text header {
+		font-size: 2rem;
+	}
+    .for_text button {
+        font-size: 1.5rem;
+        width: 192px;
+        height: 35px;
+        margin: 15px auto;
+    }
+	.family_owned{
+		height: 260px;
+        margin: 0 auto;
+	}
+	.family_owned div {
+		bottom: 84px;
+	}
+	.family_owned div img{
+		width: 165px;
+	}
+	.family_owned .family {
+		font-size: 3rem;
+	}
+	.family_owned article {
+        padding: 20px 35px 0px;
+		font-size: 1.5rem;
+        margin-bottom: 15px;
+	}
+	/*-------------------footer--------------------*/
+    .footer{
+        padding: 20px;
+    }
+    .wrapp_links {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+	.header_link, .know_us header {
+		font-size: 1.3rem;
+	}
+    .links {
+        width: 50%;
+        margin-right: 5px;
+    }
+    .header_link, .know_us header {
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+	.links ul li, .know_us p, form label {
+		font-size: 1rem;
+	}
+    .info{
+        display: none;
+    }
+	.one_input {
+		height: 40px;
+		padding-left: 10px;
+		font-size: 1.2rem;
+	}
+    form div {
+        flex-direction: column;
+    }
+	.subscribe {
+		right: 0px;
+		width: 80px;
+		font-size: 1.2rem;
+		height: 40px;
+	}
+	.one_input {
+        margin-top: 0px;
+        width: 100%;
+    }
+	.reserved {
+		height: 10px;
+		font-size: 1rem;
+		padding-top: 0px;
+	}
+}

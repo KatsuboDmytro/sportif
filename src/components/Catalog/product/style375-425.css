@@ -1,0 +1,83 @@
+@media screen and (min-width: 375px) and (max-width: 425px) {
+
+	/*-------------------find--------------------*/
+    .pages{
+        flex-direction: column;
+    }
+    .big_original_short {
+        width: 100%;
+    }
+    .information .indo {
+        font-size: 3.5rem;
+    }
+	/*-------------------information--------------------*/
+	.item {
+		flex-direction: column;
+	}
+	.photos{
+		width: 100%;
+		text-align: center;
+	}
+	.information {
+		padding-top: 30px;
+	}
+    .indo {
+        display: flex;
+        flex-direction: column;
+    }
+	.feedback {
+		padding: 20px 0px;
+	}
+	.size_grid {
+		grid-template-columns: repeat(5, 46px);
+		padding: 18px 0px;
+	}
+	.returns {
+		margin-left: 0px;
+	}
+	.add_bag{
+		font-size: 2rem;
+		padding-bottom: 5px;
+	}
+	.add_list svg {
+		top: 8px;
+	}
+	.add_list{
+		padding-bottom: 10px;
+		font-size: 2rem;
+        width: 100%;
+        margin: 0;
+	}
+	.add_bag{
+		font-size: 2rem;
+		padding-bottom: 5px;
+        width: 100%;
+        margin-bottom: 10px;
+	}
+	.flex_box {
+		padding: 13.09px 35px 26.19px 35px;
+	}
+	.shipping, .returns {
+		width: 100%;
+        justify-content: center;
+	}
+    .line{
+        width: 225px;
+    }
+    .buttons{
+        flex-direction: column;
+        height: min-content;
+    }
+    .flex_box{
+        flex-direction: column;
+    }
+	/*-------------------details--------------------*/
+	.text{
+		margin: 0 auto;
+		margin-bottom: 20px;
+		padding: 40px;
+	}
+	.details header {
+		padding: 35px 0px;
+	}
+}

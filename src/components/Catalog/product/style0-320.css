@@ -1,0 +1,129 @@
+@media screen and (max-width: 320px) {
+    /*-------------------header--------------------*/
+	.list_text {
+		padding-right: 0px;
+	}
+	.header_input {
+		display: none;
+	}
+	.left_side {
+		width: 30%;
+	}
+	.left_side a img{
+        padding: 10px 0px;
+		width: 200px;
+	}
+	.right_side {
+		width: 70%;
+		justify-content: flex-end;
+	}
+	.list_text {
+		font-size: 2rem;
+	}
+	/*-------------------find--------------------*/
+    .pages{
+        flex-direction: column;
+    }
+    .information .indo {
+        font-size: 3.5rem;
+    }
+	/*-------------------information--------------------*/
+    .worry header {
+        font-size: 2rem;
+    }
+	.item {
+		flex-direction: column;
+	}
+	.photos{
+		width: 100%;
+		text-align: center;
+	}
+    .original_front{
+        margin: 0;
+        padding: 11px 3px 16px 4px;
+    }
+    .original_back{
+        padding: 28px 4px;
+        margin: 0;
+    }
+    .big_original_short {
+        width: 100%;
+        height: 281px;
+    }
+	.small_photos {
+		height: 140px;
+		padding: 0px;
+        display: flex;
+        justify-content: space-between;
+	}
+	.information {
+		padding-top: 30px;
+	}
+    .indo {
+        display: flex;
+        flex-direction: column;
+    }
+	.feedback {
+		padding: 20px 0px;
+	}
+	.size_grid {
+		grid-template-columns: repeat(3, 46px);
+		padding: 18px 0px;
+	}
+	.returns {
+		margin-left: 0px;
+	}
+	.add_bag{
+		font-size: 2rem;
+		padding-bottom: 5px;
+	}
+	.add_list svg {
+		top: 8px;
+	}
+	.add_list{
+		padding-bottom: 10px;
+		font-size: 2rem;
+        width: 100%;
+        margin: 0;
+	}
+	.add_bag{
+		font-size: 2rem;
+		padding-bottom: 5px;
+        width: 100%;
+        margin-bottom: 10px;
+	}
+    .flex_box {
+        padding: 13.09px 15px 26.19px 15px;
+    }
+	.shipping, .returns {
+		width: 100%;
+        justify-content: center;
+	}
+    .line {
+        width: 135px;
+    }
+    .buttons{
+        flex-direction: column;
+        height: min-content;
+    }
+    .flex_box{
+        flex-direction: column;
+    }
+    .media {
+        margin: 0 auto;
+    }
+    .social_media{
+        justify-content: center;
+    }
+	/*-------------------details--------------------*/
+	.text{
+		margin: 0 auto;
+		margin-bottom: 20px;
+        padding: 10px;
+        font-size: 1.5rem;
+	}
+	.details header {
+		padding: 35px 0px;
+        font-size: 3rem;
+    }
+}

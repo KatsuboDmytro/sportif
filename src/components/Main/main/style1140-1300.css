@@ -1,0 +1,213 @@
+@media screen and (min-width: 1140px) and (max-width: 1300px) {
+	/*-------------------header--------------------*/
+	.header_input{
+		justify-content: flex-start;
+	}
+	.header_input img {
+		width: 17px;
+		height: 21px;
+		padding: 14px 0px;
+		left: 31px;
+	}
+	.header_input input {
+		width: 100%;
+		padding-left: 39px;
+	}
+	.left_side {
+		width: 30%;
+	}
+	.left_side a img{
+		width: 243px;
+	}
+	.right_side {
+		width: 70%;
+	}
+	.list_text {
+		font-size: 2rem;
+	}
+	/*-------------------first screen--------------------*/
+
+	.bold_head {
+		font-size: 5.5em;
+	}
+	.comment_head {
+		font-size: 2rem;
+	}
+	.shop_all_shorts {
+		width: 200px;
+		height: 45px;
+		font-size: 2rem;
+	}
+	.photos {
+		position: relative;
+		left: 40px;
+	}
+	.photos img:nth-child(1) {
+		right: 174px;
+		top: 190px;
+		height: 415px;
+		width: 467px;
+	}	
+	.photos img:nth-child(2) {
+		right: 111px;
+		height: 415px;
+		width: 467px;
+	}
+	.photos img:nth-child(3) {
+		right: 97px;
+		top: 40px;
+		height: 509px;
+		width: 544px;
+	}
+	/*-------------------second screen--------------------*/
+	.originalCargo_pic {
+		padding-top: 16px;
+		width: 130px;
+	}
+	.title {
+		font-size: 3rem;
+	}
+	.subtitle {
+		font-size: 6rem;
+	}
+	.name {
+		font-size: 2rem;
+	}
+	.tgif {
+		padding: 15px 0px;
+	}
+	.low {
+		font-size: 1.6rem;
+	}
+	.cart_main {
+		padding-bottom: -5px;
+		margin: 0px 56px 25px 56px;
+		font-size: 1.4rem;
+	}
+	.cart_main svg {
+		top: 6px;
+	}
+	.scroller {
+		height: 53px;
+		width: 53px;
+	}
+	.scroller img {
+		padding: 15px 0px;
+		height: 32px;
+	}
+	/*-------------------third screen--------------------*/
+	.photo img {
+		text-align: center;
+		width: 450px;
+	}
+	.bold_head {
+		font-size: 5em;
+	}
+	.comment_head {
+		font-size: 1.5rem;
+	}
+	.shop_all_shorts {
+		width: 169px;
+		height: 40px;
+		font-size: 1.7rem;
+	}
+	/*-------------------forth screen------------------*/
+	.ecoths, .new_powell_print{
+		width: 45%;
+	}
+	.sale_text .justText {
+		font-size: 2rem;
+	}
+	.sale_text p::before {
+		font-size: 3rem;
+		bottom: 35px;
+	}
+	.shop_by_sale {
+		width: 211px;
+		font-size: 1.4rem;
+	}
+	/*-------------------fifth screen--------------------*/
+	.fifth_screen{
+		padding: 30px 0px 90px 95px;
+	}
+	.walking_head {
+		font-size: 5rem;
+	}
+	.comment_walk_head {
+		font-size: 2rem;
+	}
+	.shop_sportif {
+		width: 350px;
+		font-size: 2rem;
+	}
+	/*-------------------last screen--------------------*/
+	.last_screen {
+		padding: 30px 0px 46px 0px;
+	}
+	.belt{
+		width: 141px;
+		height: 163px;
+	}
+	.trunk {
+		width: 135px;
+		height: 164px;
+	}
+	.catalog {
+		width: 209px;
+		height: 165px;
+		margin-bottom: 1px;
+	}
+	.trend_header {
+		font-size: 5rem;
+	}
+	.for_text header {
+		font-size: 2rem;
+	}
+	.for_text button {
+		font-size: 1.5rem;
+		width: 220px;
+		margin: 15px 36px 25px 36px;
+	}
+	.stay_in_trend{
+		margin-bottom: 350px;
+	}
+	.family_owned{
+		height: 340px;
+	}
+	.family_owned div {
+		bottom: 111px;
+	}
+	.family_owned div img{
+		width: 210px;
+	}
+	.family_owned .family {
+		font-size: 5rem;
+	}
+	.family_owned article {
+		font-size: 2rem;
+	}
+	/*-------------------footer--------------------*/
+	.header_link, .know_us header {
+		font-size: 2rem;
+	}
+	.links ul li, .know_us p, form label {
+		font-size: 1.2rem;
+	}
+	.one_input {
+		height: 35px;
+		padding-left: 20px;
+		font-size: 1.2rem;
+	}
+	.subscribe {
+		right: 98px;
+		width: 114px;
+		font-size: 1.2rem;
+		height: 40px;
+		margin-top: 0px;
+	}
+	.reserved {
+		height: 10px;
+		font-size: 1rem;
+		padding-top: 0px;
+	}
+}

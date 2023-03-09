@@ -1,0 +1,251 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	/*-------------------header--------------------*/
+	.dispaly{
+		display: none;
+	}
+	.list_text {
+		padding-right: 0px;
+	}
+	.navigation {
+		padding-left: 0px;
+		margin: -4px 0px;
+	}
+	.header_input {
+		display: none;
+	}
+	.left_side {
+		width: 30%;
+	}
+	.left_side a img{
+		width: 180px;
+	}
+	.right_side {
+		width: 70%;
+		justify-content: flex-end;
+	}
+	.list_text {
+		font-size: 2rem;
+	}
+	/*-------------------first screen--------------------*/
+	.first_screen_main {
+		padding-bottom: 140px;
+	}
+	.bold_head {
+		font-size: 3em;
+	}
+	.comment_head {
+		font-size: 1.3rem;
+	}
+	.shop_all_shorts {
+		width: 200px;
+		height: 45px;
+		font-size: 2rem;
+	}
+	.photos {
+		position: relative;
+		left: 0px;
+	}
+	.photos img:nth-child(1) {
+		right: 32px;
+		top: 170px;
+		height: 315px;
+		width: 367px;
+	}
+	.photos img:nth-child(2) {
+		right: 0px;
+		height: 315px;
+		width: 367px;
+	}
+	.photos img:nth-child(3) {
+		right: -27px;
+		top: 30px;
+		height: 409px;
+		width: 444px;
+	}
+	/*-------------------second screen--------------------*/
+	.originalCargo_pic {
+		padding: 32px 20px 5px 20px;
+		width: 120px;
+	}
+	.title {
+		font-size: 2rem;
+		padding-top: 50px;
+	}
+	.subtitle {
+		font-size: 4rem;
+	}
+	.name {
+		font-size: 1.3rem;
+	}
+	.low, .low span{
+		font-size: 1.3rem;
+	}
+	.originalCargo_low {
+		padding: 0px 30px 15px 30px;
+	}
+	.star{
+		width: 15px;
+	}
+	.tgif{
+		padding: 9px 0px;
+	}
+	.cart_main {
+		width: 60%;
+		height: 20px;
+		padding-bottom: 4px;
+		margin: 0px 0px 25px 0px;
+		font-size: 1rem;
+	}
+	.cart_main svg {
+		top: 4px;
+		width: 15px;
+		height: 15px;
+		right: 0px;
+	}
+	.scroller {
+		height: 43px;
+		width: 43px;
+	}
+	.scroller img {
+		padding: 15px 0px;
+		height: 45px;
+	}
+	/*-------------------third screen--------------------*/
+	.photo img {
+		text-align: center;
+		width: 350px;
+	}
+	.bold_head {
+		font-size: 3em;
+	}
+	.comment_head {
+		font-size: 1.3rem;
+	}
+	.shop_all_shorts {
+		width: 169px;
+		height: 40px;
+		font-size: 1.7rem;
+	}
+	/*-------------------forth screen--------------------*/
+	.forth_screen_main{
+		padding: 107px 80px 46px 80px;
+	}
+	.ecoths{
+		padding-top: 50px;
+		width: 48%;
+	}
+	.new_powell_print{
+		padding-top: 50px;
+		width: 48%;
+	}
+	.ecoths img, .new_powell_print img {
+		height: 400px;
+	}
+	.sale_text .justText {
+		font-size: 1.5rem;
+	}
+	.sale_text p::before {
+		font-size: 2rem;
+		bottom: 21px;
+	}
+	.shop_by_sale {
+		width: 211px;
+		font-size: 1.4rem;
+	}
+	/*-------------------fifth screen--------------------*/
+	.fifth_screen{
+		padding: 30px 0px 55px 95px;
+	}
+	.walking_head {
+		font-size: 3rem;
+		padding-bottom: 10px;
+	}
+	.comment_walk_head {
+		font-size: 1.2rem;
+	}
+	.shop_sportif {
+		width: 280px;
+		height: 30px;
+		font-size: 1.6rem;
+	}
+	/*-------------------last screen--------------------*/
+	.stay_in_trend {
+		padding: 0px 75px;
+		height: 250px;
+	}
+	.last_screen {
+		padding: 30px 0px 46px 0px;
+	}
+	.belt{
+		width: 135px;
+		height: 141px;
+		margin: 15px 0px 7px 0px;
+	}
+	.trunk {
+		width: 135px;
+		height: 164px;
+	}
+	.catalog {
+		width: 165px;
+		height: 150px;
+	}
+	.for_text header:nth-child(2) {
+		padding: 0px 25px;
+	}
+	.trend_header {
+		font-size: 3rem;
+	}
+	.for_text header {
+		font-size: 1.2rem;
+	}
+	.for_text button {
+		font-size: 1.2rem;
+		width: 150px;
+		height: 25px;
+		margin: 15px 15px 25px 25px;
+	}
+	.stay_in_trend{
+		margin-bottom: 250px;
+	}
+	.family_owned{
+		height: 260px;
+	}
+	.family_owned div {
+		bottom: 84px;
+	}
+	.family_owned div img{
+		width: 165px;
+	}
+	.family_owned .family {
+		font-size: 3rem;
+	}
+	.family_owned article {
+		font-size: 1.5rem;
+	}
+	/*-------------------footer--------------------*/
+	.header_link, .know_us header {
+		font-size: 1.3rem;
+	}
+	.links ul li, .know_us p, form label {
+		font-size: 1rem;
+	}
+	.one_input {
+		height: 40px;
+		padding-left: 10px;
+		font-size: 1.2rem;
+	}
+	.subscribe {
+		right: 70px;
+		width: 93px;
+		font-size: 1.2rem;
+		height: 46px;
+	}
+	.one_input{
+		margin-top: 0px;
+	}
+	.reserved {
+		height: 10px;
+		font-size: 1rem;
+		padding-top: 0px;
+	}
+}

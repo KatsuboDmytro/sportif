@@ -1,0 +1,234 @@
+/*-------------------find--------------------*/
+.pages{
+	width: 100%;
+}
+.shorts span{
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: black;
+    padding: 0px 8px;
+	transition: all .2s linear;
+}
+.thing_to_buy span{
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+    padding: 0px 8px;  
+	transition: all .2s linear;
+}
+/*-------------------item--------------------*/
+.original_front{
+	padding: 14px 26px 15px 29px;
+	margin-right: 25px;
+	border: 2px solid #333333;
+}
+.original_back{
+	padding: 30px;
+	margin-left: 25px;
+	border: 2px solid #333333;
+}
+.item{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.information{
+	padding-top: 0px;
+}
+.big_original_short{
+	margin: 50px 10px;
+}
+.information .indo{
+	font-weight: 600;
+	font-size: 4.8rem;
+}
+.information header sub{
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+.feedback{
+	display: flex;
+	justify-content: flex-start;
+	height: 37px;
+	padding: 21px 0px 38.64px 0px;
+}
+.feedback span{
+	font-weight: 400;
+	font-size: 1.5rem;
+	padding: 2px 0px 0px 27px;
+}
+.low{
+	font-weight: 400;
+	font-size: 1.8rem;
+	padding-bottom: 16px;
+}
+.low span{
+	font-weight: 600;
+	font-size: 3.6rem;
+}
+.color_block{
+	display: flex;
+	flex-direction: column;
+}
+.color_block span{
+	font-weight: 400;
+	font-size: 1.8rem;
+}
+.color_grid{
+	margin-left: -4px;
+	padding: 7px 0px 6px 0px;
+}
+.size_block{
+	font-weight: 400;
+	font-size: 1.8rem;
+}
+.size_grid{
+	display: grid;
+	grid-template-columns: repeat(9, 46px);
+	gap: 15px;
+	padding: 18px 0px 42px 0px;
+	text-align: center;
+}
+.grid{
+	padding: 1px 0px;
+	border: 2px solid var(--subColor);
+}
+.buttons{
+	margin-bottom: 24px;
+	height: 56px;
+	display: flex;
+	justify-content: space-between;
+}
+.add_bag{
+	width: 50%;
+	margin-right: 10px;
+	font-weight: 400;
+	font-size: 2.4rem;
+	font-family: var(--Oswald);
+	background-color: var(--mainColor);
+	border: 1px solid var(--mainColor);
+	color: white;
+    transition: all .3s linear;
+}
+.add_bag:hover{
+	border: 1px solid black;
+    background-color: white;
+	color: black;
+}
+.add_bag svg{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 9px;
+    right: 5px;
+}
+.add_bag svg path{
+	fill: white;
+	transition: all .3s linear;
+}
+.add_bag:hover svg path{
+	fill: black;
+}
+.add_list{
+	width: 50%;
+	margin-left: 10px;
+	font-weight: 400;
+	font-size: 2.4rem;
+	font-family: var(--Oswald);
+	color: var(--mainColor);
+	background-color: white;
+	border: 1px solid black;
+	transition: all .3s linear;
+}
+.add_list:hover{
+	border: 1px solid var(--mainColor);
+    background-color: var(--mainColor);
+	color: white;
+}
+.add_list svg{
+    width: 30px;
+    height: 30px;
+	position: relative;
+    top: 5px;
+    right: 5px;
+}
+.add_list svg path{
+	fill: var(--mainColor);
+	transition: all .3s linear;
+}
+.add_list:hover svg path{
+	fill: white;
+}
+.social_media{
+	display: flex;
+	padding-bottom: 25px;
+}
+.media{
+	margin-right: 26px;
+}
+.worry{
+	background-color: var(--subColor);
+	width: 100%;
+}
+.worry header{
+	font-weight: 400;
+	font-size: 2.4rem;
+	text-align: center;
+	padding: 17.12px 0px 10.07px 0px;
+}
+.line{
+	height: 1px;
+	width: 385px;
+	background-color: var(--mainColor);
+	margin: 0 auto;
+}
+.flex_box{
+	display: flex;
+	justify-content: space-between;
+	padding: 13.09px 56px 26.19px 53px;
+}
+.shipping, .returns{
+	display: flex;
+	width: 40%;
+	font-weight: 400;
+	font-size: 1.4rem;
+}
+.returns span{
+    padding-top: 9px;
+}
+.shipping img{
+	height: 35px;
+	width: 35.25px;
+}
+.returns img{
+	height: 30px;
+	width: 30.22px;
+}
+.shipping img, .returns img{
+	padding: 4px 25px 4px 0px;
+}
+.details{
+	padding-top: 60px;
+}
+.details header{
+	text-align: center;
+	padding-bottom: 35px;
+	font-weight: 600;
+	font-size: 4.8rem;
+}
+.text{
+	padding: 45px 88px 79px 90px;
+	margin: 0px 123px 63px 123px;
+	font-weight: 300;
+	font-size: 2rem;
+	font-family: var(--OpenSans);
+	color: #333333;
+	background-color: var(--subColor);
+}
+.text p{
+	font-family: var(--OpenSans);
+}
+.text ul li{
+	list-style: inside;
+	font-family: var(--OpenSans);
+}

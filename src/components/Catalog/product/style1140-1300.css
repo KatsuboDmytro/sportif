@@ -1,0 +1,72 @@
+@media screen and (min-width: 1140px) and (max-width: 1300px) {
+	.slider{
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+	/*-------------------header--------------------*/
+	.header_input{
+		justify-content: flex-start;
+	}
+	.header_input img {
+		width: 17px;
+		height: 22px;
+		padding: 18px 0px;
+		left: 31px;
+	}
+	.header_input input {
+		width: 100%;
+		padding-left: 39px;
+	}
+	.left_side {
+		width: 30%;
+	}
+	.left_side a img{
+		padding: 10px 0px;
+		width: 243px;
+	}
+	.right_side {
+		width: 70%;
+	}
+	.list_text {
+		font-size: 2rem;
+	}
+	/*-------------------details--------------------*/
+	.text{
+		margin: 0 auto;
+		margin-bottom: 20px;
+		padding: 45px 88px 40px 90px;
+	}	
+	/*-------------------footer--------------------*/
+	.header_link, .know_us header {
+		font-size: 2rem;
+	}
+	.links ul li, .know_us p, form label {
+		font-size: 1.2rem;
+	}
+	.one_input {
+		height: 35px;
+		padding-left: 20px;
+		font-size: 1.2rem;
+	}
+	.subscribe {
+		right: 98px;
+		width: 114px;
+		font-size: 1.2rem;
+		height: 41px;
+		margin-top: 15px;
+	}
+	.reserved {
+		height: 10px;
+		font-size: 1rem;
+		padding-top: 0px;
+	}
+	.scroller {
+		height: 83px;
+		width: 83px;
+	}
+	.scroller a img {
+		padding: 15px 0px;
+		height: 55px;
+	}
+}

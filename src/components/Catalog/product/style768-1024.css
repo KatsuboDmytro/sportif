@@ -1,0 +1,69 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.slider{
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+	/*-------------------information--------------------*/
+	.item {
+		flex-direction: column;
+	}
+	.photos{
+		width: 100%;
+		text-align: center;
+	}
+	.big_original_short{
+		height: 400px;
+		margin: 0 auto;
+	}
+	.small_photos {
+		height: 140px;
+		padding: 0px;
+	}
+	.information {
+		padding-top: 30px;
+	}
+	.indo{
+		display: block;
+	}
+	.feedback {
+		padding: 20px 0px;
+	}
+	.size_grid {
+		grid-template-columns: repeat(9, 46px);
+		padding: 18px 0px;
+	}
+	.returns {
+		margin-left: 50px;
+	}
+	.add_bag{
+		font-size: 2rem;
+		padding-bottom: 5px;
+	}
+	.add_list svg {
+		top: 8px;
+	}
+	.add_list{
+		padding-bottom: 10px;
+		font-size: 2rem;
+	}
+	.add_bag{
+		font-size: 2rem;
+		padding-bottom: 5px;
+	}
+	.flex_box {
+		padding: 13.09px 35px 26.19px 35px;
+	}
+	.shipping, .returns {
+		width: 50%;
+	}
+	/*-------------------details--------------------*/
+	.text{
+		margin: 0 auto;
+		margin-bottom: 20px;
+		padding: 45px 88px 40px 90px;
+	}
+	.details header {
+		padding: 35px 0px;
+	}
+}

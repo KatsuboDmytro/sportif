@@ -1,0 +1,42 @@
+@media screen and (min-width: 1024px) and (max-width: 1140px) {
+	.slider{
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+	/*-------------------information--------------------*/
+	.indo{
+		display: flex;
+		flex-direction: column;
+	}
+	.size_grid {
+		grid-template-columns: repeat(6, 46px);
+	}
+	.add_bag{
+		font-size: 2rem;
+    	padding-bottom: 5px;
+	}
+	.add_list svg {
+		top: 8px;
+	}
+	.add_list{
+		padding-bottom: 10px;
+		font-size: 1.7rem;
+	}
+	.add_bag{
+		font-size: 2rem;
+		padding-bottom: 5px;
+	}
+	.flex_box {
+		padding: 13.09px 35px 26.19px 35px;
+	}
+	.shipping, .returns {
+		width: 50%;
+	}
+	/*-------------------details--------------------*/
+	.text{
+		margin: 0 auto;
+		margin-bottom: 20px;
+		padding: 45px 88px 40px 90px;
+	}	
+}
