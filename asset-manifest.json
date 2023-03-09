@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sportif/static/css/main.72a962a6.css",
-    "main.js": "/sportif/static/js/main.64e9a007.js",
+    "main.css": "/sportif/static/css/main.15d49449.css",
+    "main.js": "/sportif/static/js/main.e851a455.js",
     "static/media/walking.png": "/sportif/static/media/walking.9da3682b352de2a92e19.png",
     "index.html": "/sportif/index.html",
-    "main.72a962a6.css.map": "/sportif/static/css/main.72a962a6.css.map",
-    "main.64e9a007.js.map": "/sportif/static/js/main.64e9a007.js.map"
+    "main.15d49449.css.map": "/sportif/static/css/main.15d49449.css.map",
+    "main.e851a455.js.map": "/sportif/static/js/main.e851a455.js.map"
   },
   "entrypoints": [
-    "static/css/main.72a962a6.css",
-    "static/js/main.64e9a007.js"
+    "static/css/main.15d49449.css",
+    "static/js/main.e851a455.js"
   ]
 }
