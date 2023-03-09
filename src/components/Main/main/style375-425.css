@@ -1,3 +1,9 @@
+@media screen and (min-width: 425px) and (max-width: 455px) {
+	#brownPic{
+		width: 351px;
+		margin: 0 auto;
+	}
+}
 @media screen and (min-width: 375px) and (max-width: 425px) {
 	.wrapper {
         padding: 0px 25px;
@@ -84,28 +90,9 @@
         margin-bottom: 30px;
         font-size: 1.7em;
     }
-    .photos {
-        position: relative;
+	#brownPic{
+		width: 300px;
 		margin: 0 auto;
-		width: 92%;
-        height: 460px;
-    }
-    .photos img:nth-child(1) {
-        right: 1px;
-        top: 170px;
-        height: 315px;
-        width: 100%;
-    }
-    .photos img:nth-child(2) {
-        right: 0px;
-        height: 315px;
-        width: 100%;
-    }
-	.photos img:nth-child(3) {
-		right: -32px;
-		top: 57px;
-		height: 363px;
-		width: 363px;
 	}
 	/*-------------------second screen--------------------*/
 	.originalCargo_pic {

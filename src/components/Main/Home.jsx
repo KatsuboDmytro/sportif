@@ -46,11 +46,7 @@ export const Home = ({clothesArray, isLoading, onAddToCart}) => {
             <article className="comment_head">Get the perfect fit with 6 different inseam lengths.</article>
             <button className="shop_all_shorts"><a href="./html/catalogPage.html">SHOP ALL SHORTS</a></button>
           </section>
-          <section className="photos">
-            <img src="/sportif/img/brownBorder.png" alt="brownBorder"></img>
-            <img src="/sportif/img/brownSquare.png" alt="brownSquare"></img>
-            <img src="/sportif/img/theMan.png" alt="theMan"></img>
-          </section>
+          <img src="/sportif/img/mainPicture.png" alt="brownPic" className='brownPic' id='brownPic'/>
       </div>
       {/*-------------------scroller----------------------*/}
       <Scroller />

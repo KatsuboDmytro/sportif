@@ -41,26 +41,8 @@
 		height: 45px;
 		font-size: 2rem;
 	}
-	.photos {
-		position: relative;
-		left: 0px;
-	}
-	.photos img:nth-child(1) {
-		right: 32px;
-		top: 170px;
-		height: 315px;
-		width: 367px;
-	}
-	.photos img:nth-child(2) {
-		right: 0px;
-		height: 315px;
-		width: 367px;
-	}
-	.photos img:nth-child(3) {
-		right: -27px;
-		top: 30px;
-		height: 409px;
-		width: 444px;
+	.brownPic{
+		width: 400px;
 	}
 	/*-------------------second screen--------------------*/
 	.originalCargo_pic {

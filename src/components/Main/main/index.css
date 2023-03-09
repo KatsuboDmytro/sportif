@@ -131,24 +131,6 @@ a, ul, li{
 .shop_all_shorts a:hover{
 	color: white;
 }
-.photos{
-	width: 50%;
-}
-.photos img:nth-child(1){
-    margin-top: -27px;
-    position: absolute;
-    right: 250px;
-    top: 300px;/*183px;*/
-}
-.photos img:nth-child(2){
-    position: absolute;
-    right: 111px;
-}
-.photos img:nth-child(3){
-    position: absolute;
-    right: 110px;
-    top: 152px;/*35px;*/
-}
 /*-------------------second page--------------------*/
 .second_screen_main{
 	background-color: var(--subColor);

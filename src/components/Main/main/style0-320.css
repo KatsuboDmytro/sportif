@@ -72,7 +72,7 @@
         text-align: center;
     }
     .bold_head{
-        font-size: 4em;
+        font-size: 2em;
         margin-bottom: 15px;
     }
     .comment_head{
@@ -84,27 +84,9 @@
         margin-bottom: 30px;
         font-size: 1.7em;
     }
-    .photos {
-        position: relative;
-        width: 92%;
-        height: 460px;
-    }
-    .photos img:nth-child(1) {
-        right: 1px;
-        top: 170px;
-        height: 315px;
-        width: 100%;
-    }
-    .photos img:nth-child(2) {
-        right: 0px;
-        height: 315px;
-        width: 100%;
-    }
-	.photos img:nth-child(3) {
-		right: -44px;
-		top: 56px;
-		height: 360px;
-		width: 140%;
+	#brownPic{
+		width: 200px;
+		margin: 0 auto;
 	}
 	/*-------------------second screen--------------------*/
 	.originalCargo_pic {

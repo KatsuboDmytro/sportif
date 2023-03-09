@@ -15,6 +15,10 @@
 		width: 70%;
 		margin: 0 auto;
 	}
+	#brownPic{
+		width: 391px;
+		margin: 0 auto;
+	}
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
@@ -104,29 +108,10 @@
         margin-bottom: 30px;
         font-size: 1.7em;
     }
-	.photos {
-		position: relative;
+	.brownPic{
+		width: 491px;
 		margin: 0 auto;
-		width: 60%;
-		height: 460px;
 	}
-    .photos img:nth-child(1) {
-        right: 1px;
-        top: 170px;
-        height: 315px;
-        width: 367px;
-    }
-    .photos img:nth-child(2) {
-        right: 0px;
-        height: 315px;
-        width: 367px;
-    }
-    .photos img:nth-child(3) {
-        right: -38px;
-        top: 30px;
-        height: 409px;
-        width: 444px;
-    }
 	/*-------------------second screen--------------------*/
 	.originalCargo_pic {
 		padding: 32px 20px 5px 20px;
