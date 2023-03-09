@@ -70,7 +70,6 @@ function App() {
     axios.delete(`https://63f4d6fc3f99f5855db8b6f4.mockapi.io/cart/${id}`);
     setCartArray(prev => prev.filter((item) =>  Number(item.id) !== Number(obj.id)));
 };
-  console.log(cartArray)
 
   return (
     <AppContext.Provider value={{productId, setProductId, cartArray, setCartArray, setIsLoading, setCartOpened}}>

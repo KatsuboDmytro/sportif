@@ -1,14 +1,14 @@
 import React from 'react'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import './cart.css'
 import { AppContext } from '../App';
 
 export const Cart = ({onDeleteFromCart, items=[]}) => {
+    const notify = () => toast("Ваше замовлення прийняте");
     const {setCartOpened} = React.useContext(AppContext);    
     let {cartArray} = React.useContext(AppContext);
-    
-    const onClickOrder = () => {
-        alert('Ваше замовлення прийняте');
-    }
     
     const totalPrice = +cartArray.reduce((sum, obj) => obj.price + sum, 0);
     const tax = (totalPrice * 5) /100;
@@ -46,7 +46,19 @@ export const Cart = ({onDeleteFromCart, items=[]}) => {
                             <div className="total">${tax.toFixed(2)}</div>
                         </li>
                         </ul>
-                        <button onClick={onClickOrder} className="cart_button">
+                        <button onClick={notify} className="cart_button">
+                        <ToastContainer
+                            position="top-center"
+                            autoClose={5000}
+                            hideProgressBar={false}
+                            newestOnTop={false}
+                            closeOnClick
+                            rtl={false}
+                            pauseOnFocusLoss
+                            draggable
+                            pauseOnHover
+                            theme="light"
+                        /> 
                         <div>Замовити</div>
                         <img src="/sportif/img/arrow.svg" alt="arrow"></img>
                         </button>

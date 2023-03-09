@@ -88,7 +88,7 @@ export const Home = ({clothesArray, isLoading, onAddToCart}) => {
 								</ContentLoader>
 								:
 								<>
-									<div className="short" key={item.id}>
+									<div className="short">
 											<img onClick={() => setId(item.item)} src={item.img} alt="sportifOriginalShort" className=" short_name main_picture"></img>
 											<header onClick={() => setId(item.item)}>{item.name}</header>
 										<section onClick={() => setId(item.item)} className="stars">
