@@ -31,8 +31,6 @@ a, ul, li{
 .find{
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
-    padding-bottom: 24px;
 }
 .pages{
     display: flex;
@@ -83,6 +81,7 @@ a, ul, li{
     display: flex;
 }
 .catalog_settings{
+    margin-top: 25px;
     background-color: #fff;
     width: 20%;
     height: min-content;
@@ -328,7 +327,7 @@ a, ul, li{
 	font-size: 1.8rem;
 	padding-bottom: 10px;
 }
-form{
+.form{
 	padding-top: 30px;
 }
 .one_input{

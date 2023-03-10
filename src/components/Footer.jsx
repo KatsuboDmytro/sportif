@@ -44,7 +44,7 @@ export const Footer = () => {
               <header>GET TO KNOW US</header>
               <p>Sign up for our weekly newsletter and get a 10% off coupon by email for your first order!</p>
             </div>
-            <form>
+            <form className='form'>
               <label htmlFor="email">Sign Up for Our Newsletter:</label><br></br>
               <div>
                 <input type="mail" placeholder="EMAIL ADDRESS" className="one_input"></input>

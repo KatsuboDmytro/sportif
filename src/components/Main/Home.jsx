@@ -119,7 +119,7 @@ export const Home = ({clothesArray, isLoading, onAddToCart}) => {
 										draggable
 										pauseOnHover
 										theme="light"
-									/>   
+									  />   
 									</div> 
 								</>
 							)}

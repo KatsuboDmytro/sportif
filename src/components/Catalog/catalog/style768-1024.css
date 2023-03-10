@@ -9,9 +9,6 @@
 	.navigation {
 		padding-left: 0px;
 	}
-	.header_input {
-		display: none;
-	}
 	.left_side {
 		width: 30%;
 	}
@@ -62,7 +59,7 @@
 	.choose_shorts{
 		grid-template-columns: repeat(2, auto);
 		gap: 50px;
-		margin: 0 auto;
+		margin: 25px auto;
 		width: min-content;
 	}
 	

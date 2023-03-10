@@ -1,18 +1,5 @@
 @media screen and (min-width: 1140px) and (max-width: 1300px) {
 	/*-------------------header--------------------*/
-	.header_input{
-		justify-content: flex-start;
-	}
-	.header_input img {
-		width: 17px;
-		height: 22px;
-		padding: 18px 0px;
-		left: 31px;
-	}
-	.header_input input {
-		width: 100%;
-		padding-left: 39px;
-	}
 	.left_side {
 		width: 30%;
 	}
@@ -44,7 +31,7 @@
 	}
 	/*-------------------settings--------------------*/
 	.buy_shorts{
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.settings {
 		width: 96%;

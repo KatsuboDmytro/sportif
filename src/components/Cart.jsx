@@ -47,6 +47,9 @@ export const Cart = ({onDeleteFromCart, items=[]}) => {
                         </li>
                         </ul>
                         <button onClick={notify} className="cart_button">
+                        <div>Замовити</div>
+                        <img src="/sportif/img/arrow.svg" alt="arrow"></img>
+                        </button>
                         <ToastContainer
                             position="top-center"
                             autoClose={5000}
@@ -59,9 +62,6 @@ export const Cart = ({onDeleteFromCart, items=[]}) => {
                             pauseOnHover
                             theme="light"
                         /> 
-                        <div>Замовити</div>
-                        <img src="/sportif/img/arrow.svg" alt="arrow"></img>
-                        </button>
                     </div>
                 </div>
             </div>

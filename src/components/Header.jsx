@@ -26,10 +26,6 @@ export const Header = (props) => {
               <span className="bar"></span>
               <span className="bar"></span>
             </div>
-            <div className="header_input dispaly">
-              <img src="/sportif/img/find.png" alt='find'></img>
-              <input type="search" placeholder="SEARCH ENTIRE STORE HERE"></input>
-            </div>
           </aside>
         </header>
     </>

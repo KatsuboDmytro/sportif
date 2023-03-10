@@ -26,7 +26,6 @@ a, ul, li{
 }
 /*-------------------header--------------------*/
 .header{
-	margin: 25px 0px;
 	display: flex;
 	justify-content: space-between;
 	position: sticky;
@@ -44,8 +43,7 @@ a, ul, li{
     padding: 10px 0px;
 }
 .right_side{
-	width: 65%;
-	margin-top: 0px;
+	margin: 15px 0px;
 	display: flex;
 	justify-content: space-between;
 	height: min-content;
@@ -66,30 +64,6 @@ a, ul, li{
 }
 .list_text:hover{
 	color: var(--mainColor);
-}
-.header_input{
-	display: flex;
-	justify-content: space-around;
-	width: 32%;
-}
-.header_input img {
-	width: 19px;
-	height: 22px;
-	padding: 15px 0px;
-	position: relative;
-	left: 66px;
-}
-.header_input input{
-	width: 70%;
-	height: 40px;
-	font-size: 1.3rem;
-	border-radius: 25px;
-	border: 2px solid var(--mainColor);
-	font-family: var(--Oswald);
-	background-color: #fff;
-	color: var(--grey);
-	margin-top: 2%;
-	padding-left: 45px;
 }
 /*-------------------first page--------------------*/
 .first_screen_main{
@@ -473,10 +447,10 @@ a, ul, li{
 	font-size: 1.8rem;
 	padding-bottom: 10px;
 }
-form{
+.form{
 	padding-top: 30px;
 }
-form div{
+.form div{
 	display: flex;
 	justify-content: flex-start;
 }
