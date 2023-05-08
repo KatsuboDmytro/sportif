@@ -16,11 +16,11 @@ export const Header = (props) => {
     <>
         <header id='header' className="header wrapper">
           <aside className="left_side">
-            <Link to="/sportif"><img src="/sportif/img/logo.png" alt="SportIf USA logo"></img></Link>
+            <Link to="/"><img src="/sportif/img/logo.png" alt="SportIf USA logo"></img></Link>
           </aside>
           <aside className="right_side">
             <ul onClick={() => onClickBurger()} className={burger ? "navigation" : "navigation active"}>
-              <Link to="/sportif/catalog"><li className="list_text">Shorts</li></Link>
+              <Link to="/catalog"><li className="list_text">Shorts</li></Link>
               <a href="#header"><li className="list_text">Pants</li></a>
               <a href="#header"><li className="list_text">Shirts</li></a>
               <a href="#header"><li className="list_text">Accessories</li></a>

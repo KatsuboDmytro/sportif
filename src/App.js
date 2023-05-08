@@ -76,11 +76,11 @@ function App() {
       <div className="App">
         <Header setProductId={setProductId} onClickCart={() => setCartOpened(true)}/>
           <Routes>
-            <Route path="/sportif" element={<Home 
+            <Route path="/" element={<Home 
             clothesArray={clothesArray} isLoading={isLoading}
             onAddToCart={onAddToCart}/>}/>
 
-            <Route path="/sportif/catalog" element={<Catalog  
+            <Route path="/catalog" element={<Catalog  
             clothesArray={clothesArray} isLoading={isLoading}
             sizeId={sizeId} setSizeId={setSizeId}
             colorId={colorId} setColorId={setColorId}
