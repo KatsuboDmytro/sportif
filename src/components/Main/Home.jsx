@@ -45,7 +45,7 @@ export const Home = ({clothesArray, isLoading, onAddToCart}) => {
           <section className="text_main">
             <header className="bold_head">BEST SELLING <br></br> STRETCH SHORTS</header>
             <article className="comment_head">Get the perfect fit with 6 different inseam lengths.</article>
-            <button className="shop_all_shorts"><Link to="/catalog">SHOP ALL SHORTS</Link></button>
+            <button className="shop_all_shorts"><Link to="/sportif/catalog">SHOP ALL SHORTS</Link></button>
           </section>
           <img src="/sportif/img/mainPicture.png" alt="brownPic" className='brownPic' id='brownPic'/>
       </div>
