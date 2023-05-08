@@ -57,6 +57,7 @@ export const Catalog = ({onAddToCart, clothesArray, isLoading, setIsLoading, siz
 		{"li" : "Machine wash"},
 		{"li" : "Imported"},
 	];
+	
 	const onChangeInput = (event) => {
 		setSearchValue(event.target.value);
 	};
@@ -90,7 +91,7 @@ export const Catalog = ({onAddToCart, clothesArray, isLoading, setIsLoading, siz
 			<section id='find' className="find wrapper">
 				<nav className="pages">
 					<div className="home" onClick={() => setProductId(0)}>
-						<Link to="/sportif">
+						<Link to="/">
 							<img src="/sportif/img/home.png" alt="home"></img>
 							<span>HOME</span>
 						</Link>
@@ -266,7 +267,7 @@ export const Catalog = ({onAddToCart, clothesArray, isLoading, setIsLoading, siz
 				<section id='find' className="find wrapper">
 					<nav className="pages">
 						<div className="home">
-							<Link to="/sportif">
+							<Link to="/">
 								<img src="/sportif/img/home.png" alt="home"></img>
 								<span>HOME</span>
 							</Link>

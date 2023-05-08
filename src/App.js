@@ -74,31 +74,29 @@ function App() {
   return (
     <AppContext.Provider value={{productId, setProductId, cartArray, setCartArray, setIsLoading, setCartOpened}}>
       <div className="App">
-        <>
-          <Header setProductId={setProductId} onClickCart={() => setCartOpened(true)}/>
-            <Routes>
-              <Route path="/sportif" element={<Home 
-              clothesArray={clothesArray} isLoading={isLoading}
-              onAddToCart={onAddToCart}/>}/>
+        <Header setProductId={setProductId} onClickCart={() => setCartOpened(true)}/>
+          <Routes>
+            <Route path="/" element={<Home 
+            clothesArray={clothesArray} isLoading={isLoading}
+            onAddToCart={onAddToCart}/>}/>
 
-              <Route path="/sportif/Catalog/Catalog" element={<Catalog  
-              clothesArray={clothesArray} isLoading={isLoading}
-              sizeId={sizeId} setSizeId={setSizeId}
-              colorId={colorId} setColorId={setColorId}
-              page={page} setPage={setPage}
-              setIsLoading={setIsLoading}
-              onAddToCart={onAddToCart}/>}/>
+            <Route path="/catalog" element={<Catalog  
+            clothesArray={clothesArray} isLoading={isLoading}
+            sizeId={sizeId} setSizeId={setSizeId}
+            colorId={colorId} setColorId={setColorId}
+            page={page} setPage={setPage}
+            setIsLoading={setIsLoading}
+            onAddToCart={onAddToCart}/>}/>
 
-            </Routes>
-            <>
-            {
-              cartOpened &&
-              <Cart onClickClose={() => setCartOpened(false)}
-              onDeleteFromCart={onDeleteFromCart} items={cartArray}/>
-            }
-            </>
-          <Footer />
-        </>
+          </Routes>
+          <>
+          {
+            cartOpened &&
+            <Cart onClickClose={() => setCartOpened(false)}
+            onDeleteFromCart={onDeleteFromCart} items={cartArray}/>
+          }
+          </>
+        <Footer />
       </div>
     </AppContext.Provider>
   );
